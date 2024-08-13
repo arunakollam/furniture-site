@@ -1,0 +1,164 @@
+
+/* google fonts------------------------------------------------------------------------------------------------  */
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Grey Qo", cursive;
+}
+h1{
+    font-family: "Kalnia Glaze", serif ;
+}
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-color: aqua;
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 3px solid blue;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+header ul{
+    padding-right: 50px;
+    display: flex;
+}
+header ul li{
+    /* display: flex; */
+    float: left;
+    list-style: none;
+    padding: 20px;
+}
+header ul li a:hover{
+    color:rgb(174, 255, 0)
+    /* text-shadow: 7px 6px 9px rgb(228, 228, 16); */
+    bor
+}
+header img{
+    border: 6px double;
+    border-radius: 50%;
+    border-color: blue;
+    padding: 5px;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+}
+#bbb img{
+    width: 100%;
+    height: 500px;
+}
+#ccc{
+    border: 3px double pink;
+    background-color: rgb(137, 201, 205);
+    padding: 20px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+/* ------------------------------------------------------------------------------------------ */
+.row1{
+    width: 100%;
+    height: 20px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+#section2{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#section2 img{
+    width: 300px;
+    height: 300px;
+}
+/* ---------------------------------------------------- */
+#section3 .row{
+    display: flex;
+}
+#section3 .col1{
+    padding: 115px 0px;
+    
+}
+/*section4 --------------------------------------------------------------- */
+#section4 h1{
+   text-align: center;
+}
+
+#section4 .row{
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+/* section5------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --> */
+#section5 h1{
+    text-align: center;
+}
+#section5 .row5{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+}
+#section5 .col5{
+    border: 3px solid black;
+margin: 6px; 
+width: 400px;
+height:600px ; 
+padding: 30px;  
+}
